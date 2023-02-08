@@ -1,3 +1,124 @@
+body {
+  margin: 0px;
+}
+.account-logo {
+  width: 60px;
+  height: 35px;
+  margin-left: -300px;
+  margin-top: -170px;
+}
+.account-number {
+  color: white;
+  font-weight: bold;
+  margin-left: -300px;
+  margin-top: 60px;
+  word-spacing: 15px;
+}
+.account-name {
+  color: white;
+  font-size: 11px;
+  margin-left: -300px;
+  margin-top: 5px;
+}
+.account-date {
+  color: white;
+  font-size: 11px;
+  margin-left: -85px;
+  margin-top: -25px;
+}
 img {
-  margin-top: 0px;
+  width: 400px;
+  height: 900px;
+}
+label {
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input {
+  width: 290px;
+  height: 30px;
+  margin-bottom: 13px;
+  border-radius: 6px;
+  border-color: hsl(279, 6%, 55%);
+  border-width: 1px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-cards {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-top: 150px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.card-front {
+  width: 300px;
+  height: 200px;
+  margin-left: -330px;
+}
+.card-back {
+  width: 300px;
+  height: 200px;
+  margin-left: -250px;
+  margin-top: 40px;
+}
+
+.grid-infor {
+  margin-top: 100px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.grid-name {
+  margin-top: -470px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-number {
+  display: flex;
+  flex-direction: column;
+}
+.exp-box {
+  display: flex;
+  flex-direction: row;
+}
+.month-box {
+  width: 65px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: -120px;
+  display: flex;
+  flex-direction: row;
+}
+.year-box {
+  width: 65px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 29px;
+  float: right;
+}
+button {
+  width: 300px;
+  height: 35px;
+  border-radius: 7px;
+  color: white;
+  background-color: hsl(278, 68%, 11%);
+}
+.area-code {
+  display: flex;
+  flex-direction: column;
+}
+.cvc-box {
+  width: 108px;
+  height: 30px;
+  margin-right: 70px;
 }

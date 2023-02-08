@@ -8,9 +8,46 @@
     <title>Card</title>
   </head>
   <body>
-    <div>
+    <div class="box">
       <div>
         <img src="images/bg-main-desktop.png" />
+      </div>
+      <div class="grid">
+        <div class="grid-cards">
+          <img class="card-front" src="images/bg-card-front.png" />
+          <img class="account-logo" src="images/card-logo.svg" />
+          <p class="account-number">0000 0000 0000 0000</p>
+          <p class="account-name">JANE APPLESEED</p>
+          <p class="account-date">00/00</p>
+          <img class="card-back" src="images/bg-card-back.png" />
+        </div>
+        <div class="grid-name">
+          <div class="grid-infor">
+            <label class="name-box" for="id">CARDHOLDER NAME</label>
+            <input type="text" placeholder="  e.g Jane Appleseed" required />
+          </div>
+
+          <div class="grid-number">
+            <label class="card-box" for="id">CARD NUMBER</label>
+            <input
+              type="text"
+              placeholder="  e.g 1234 5678 9123 0000"
+              required
+            />
+          </div>
+
+          <div class="exp-box">
+            <label for="id">EXP. DATE [MM/YY]</label>
+            <input class="month-box" type="text" placeholder="  MM" required />
+            <input class="year-box" type="text" placeholder="  YY" required />
+
+            <div class="area-code">
+              <label for="id">CVC</label>
+              <input class="cvc-box" type="txt" placeholder=" e.g 123" />
+            </div>
+          </div>
+          <div><button>Confirm</button></div>
+        </div>
       </div>
     </div>
   </body>
